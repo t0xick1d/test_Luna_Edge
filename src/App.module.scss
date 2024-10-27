@@ -1,0 +1,39 @@
+@import './vars.scss';
+
+.app {
+ padding: 16px 32px;
+ @extend %display-center;
+ color: $text-main-color;
+ font-family: $main-fonts;
+ font-size: 14px;
+ font-weight: 400;
+ text-align: center;
+ letter-spacing: -0.01em;
+
+}
+.header{ 
+ display: flex;
+}
+.mainContainer{ 
+ min-width: 100%;
+ font-weight: 400;
+ font-size: 12px;
+ color: $text-second-color;
+
+}
+.section{ 
+ min-width: 100%;
+ // outline: 1px solid rgba(196, 196, 196, 1);
+ background-color: rgba(255, 255, 255, 1);
+}
+.stepDiv{ 
+ text-align: start;
+}
+// @media screen and (min-width: $screen-mobile) {
+// //  $screen-mobile: 480px;
+// // $screen-tablet: 768px;
+// // $screen-compucter: 1280px;
+//   .mainContainer {
+//     width: $screen-mobile;
+//   }
+// }

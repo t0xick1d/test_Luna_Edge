@@ -1,0 +1,31 @@
+@import '../../../vars.scss';
+.titleRegister{
+ color: $text-main-color;
+ font-weight: 600;
+ font-size: 24px;
+ text-align: start;
+ margin-bottom: 8px;
+}
+.textRegister{ 
+
+text-align: start;
+margin-bottom: 32px;
+}
+.labelContainer{ 
+ @extend %display-start;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ margin-bottom: 24px;
+}
+.formContainer{ 
+ margin-bottom: 16px;
+}
+.registerButton{ 
+ background: rgba(50, 171, 242, 1);
+
+}
+.spanLogin{ 
+ color:rgba(50, 171, 242, 1);
+
+}
